@@ -1,0 +1,24 @@
+class H
+{
+	@Override
+	public void run()
+	{
+		for(int i = 0; i <=100; i++)
+		{
+		 System.out.println(i);	
+		}
+		
+	}
+}
+class I
+{
+	public static void main(String[] args) 
+	{
+		I i1 = new H();
+		i1.setDeamon(true);
+		i1.start();
+		System.out.println("done");
+	}
+}
+
+
